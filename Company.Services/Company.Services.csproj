@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Company.Data\Company.Data.csproj" />
+    <ProjectReference Include="..\Company.Models\Company.Models.csproj" />
+    <ProjectReference Include="..\Company.Tools\Company.Tools.csproj" />
+  </ItemGroup>
+
+</Project>
